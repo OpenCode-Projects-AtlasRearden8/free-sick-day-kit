@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Symptom &amp; Medicine-Time Log</title>
+<link rel="stylesheet" href="css/kit.css">
+<style>
+  @page { size: Letter; margin: 0.55in; }
+  .day-strip { display: flex; gap: 6pt; margin-top: 6pt; }
+  .day-strip .write-line { flex: 1; min-height: 20pt; }
+  .strip-label { font-size: 8pt; color: #6b6a74; margin-bottom: 2pt; }
+  table { width: 100%; border-collapse: collapse; margin-top: 8pt; }
+  caption { text-align: left; font-weight: bold; font-size: 12pt; color: #2a7f7f; padding: 2pt; }
+  th, td { border: 0.75pt solid #9aa0a8; padding: 4pt 6pt; font-size: 9.5pt; text-align: left; vertical-align: top; }
+  th { background: #e2f2f2; color: #3b3a44; }
+  .cells td { height: 21pt; }
+  .narrow { width: 55pt; }
+  .med-label { font-weight: bold; color: #d9714e; }
+</style>
+</head>
+<body>
+  <h1 class="page-title">Sick-Day Log</h1>
+  <p class="page-subtitle">Symptoms &amp; medicine times — one page per day. Jot as you go, hand it to the doctor or a sub caregiver if you need to tap out.</p>
+
+  <div class="day-strip">
+    <div style="flex:2">
+      <div class="strip-label">Date</div>
+      <div class="write-line"></div>
+    </div>
+    <div style="flex:2">
+      <div class="strip-label">Who's sick (name)</div>
+      <div class="write-line"></div>
+    </div>
+    <div style="flex:1">
+      <div class="strip-label">Day of illness</div>
+      <div class="write-line"></div>
+    </div>
+  </div>
+
+  <table class="cells">
+    <caption>Symptoms &amp; temperature</caption>
+    <tr>
+      <th class="narrow">Time</th>
+      <th style="width:70pt">Temp</th>
+      <th>What you're seeing (fever, cough, tummy, energy, mood...)</th>
+    </tr>
+    <tr class="cells"><td></td><td></td><td></td></tr>
+    <tr class="cells"><td></td><td></td><td></td></tr>
+    <tr class="cells"><td></td><td></td><td></td></tr>
+    <tr class="cells"><td></td><td></td><td></td></tr>
+    <tr class="cells"><td></td><td></td><td></td></tr>
+    <tr class="cells"><td></td><td></td><td></td></tr>
+  </table>
+
+  <table class="cells">
+    <caption>Medicine log</caption>
+    <tr>
+      <th class="narrow">Time given</th>
+      <th>Medicine &amp; strength</th>
+      <th class="narrow">Dose given</th>
+      <th style="width:80pt">Next dose okay at</th>
+      <th class="narrow">Given by</th>
+    </tr>
+    <tr class="cells"><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr class="cells"><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr class="cells"><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr class="cells"><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr class="cells"><td></td><td></td><td></td><td></td><td></td></tr>
+  </table>
+
+  <div class="day-strip">
+    <div>
+      <div class="strip-label"><span class="med-label">Call the doctor if —</span> your gut says so, breathing looks hard, fluids won't stay down, fever won't quit, or the child is hard to wake.</div>
+      <div class="write-line" style="border:none"></div>
+    </div>
+  </div>
+
+  <p class="disclaimer">Free Sick-Day Kit — education and organizing only. Not medical advice. Read medicine labels, follow your doctor's instructions, and keep the poison-control number handy (1-800-222-1222 in the US).</p>
+</body>
+</html>

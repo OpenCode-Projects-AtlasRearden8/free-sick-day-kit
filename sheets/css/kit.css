@@ -1,0 +1,62 @@
+/* Shared styles for the Free Sick-Day Kit printables. */
+
+:root {
+  --ink: #3b3a44;
+  --teal: #2a7f7f;
+  --teal-soft: #e2f2f2;
+  --coral: #d9714e;
+  --coral-soft: #fbe9e2;
+  --sun: #e8b704;
+  --line: #9aa0a8;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: "Trebuchet MS", "Verdana", sans-serif;
+  color: #3b3a44;
+  font-size: 10.5pt;
+  line-height: 1.35;
+  margin: 0;
+}
+
+h1, h2, h3 { margin: 0; font-weight: bold; }
+
+.page-title {
+  font-size: 20pt;
+  color: #2a7f7f;
+  letter-spacing: 0.5pt;
+}
+
+.page-subtitle {
+  font-size: 10.5pt;
+  color: #6b6a74;
+  margin-top: 2pt;
+}
+
+.disclaimer {
+  margin-top: 10pt;
+  padding-top: 5pt;
+  border-top: 0.75pt solid #9aa0a8;
+  font-size: 8pt;
+  color: #6b6a74;
+  text-align: center;
+}
+
+.cut-card {
+  border: 1pt dashed #9aa0a8;
+  border-radius: 8pt;
+  padding: 8pt 10pt;
+  background: #ffffff;
+}
+
+.scissors-hint {
+  font-size: 8pt;
+  color: #6b6a74;
+  font-style: italic;
+}
+
+.write-line {
+  border-bottom: 1pt solid #9aa0a8;
+  min-height: 16pt;
+}

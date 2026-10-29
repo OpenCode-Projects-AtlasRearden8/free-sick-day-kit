@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Get-Well Note (Color-Me)</title>
+<link rel="stylesheet" href="css/kit.css">
+<style>
+  @page { size: Letter; margin: 0.5in; }
+  .note-grid { width: 100%; border-collapse: collapse; margin-top: 4pt; }
+  .note-grid td { width: 50%; padding: 6pt; vertical-align: top; }
+  .note { border: 3pt dashed #d9714e; border-radius: 10pt; padding: 10pt 12pt; background: #ffffff; }
+  .note-hi { font-size: 15pt; font-weight: bold; color: #2a7f7f; }
+  .note-body { font-size: 10pt; margin-top: 6pt; }
+  .blank { display: inline-block; border-bottom: 1pt solid #6b6a74; min-width: 70pt; }
+  .blank-narrow { display: inline-block; border-bottom: 1pt solid #6b6a74; min-width: 46pt; }
+  .fill-box { border: 1.5pt solid #2a7f7f; border-radius: 6pt; height: 56pt; margin-top: 7pt; background: #fdfdf9; }
+  .fill-box.tall { height: 74pt; }
+  .fill-label { font-size: 8pt; color: #d9714e; font-weight: bold; margin-top: 7pt; }
+  .heart-row { text-align: center; margin-top: 8pt; font-size: 13pt; color: #d9714e; font-weight: bold; letter-spacing: 6pt; }
+  .hint { font-size: 8pt; color: #6b6a74; text-align: center; margin-top: 8pt; }
+</style>
+</head>
+<body>
+  <table class="note-grid">
+    <tr>
+      <td>
+        <div class="note">
+          <div class="note-hi">GET WELL SOON</div>
+          <div class="note-body">Dear <span class="blank"></span>,</div>
+          <p class="note-body" style="margin-top:4pt">I hope your soup is very warm and your pillow is extra soft. I am saving you a hug and your spot in the blanket fort.</p>
+          <div class="fill-label">DELIGHTFUL PICTURE GOES HERE — CRAYONS ENCOURAGED</div>
+          <div class="fill-box tall"></div>
+          <div class="note-body" style="margin-top:7pt">Love, <span class="blank-narrow"></span></div>
+          <div class="heart-row">SEND MORE SOUP, SEND MORE SNUGGLES</div>
+          <div class="fill-box" style="height:24pt"></div>
+          <div class="hint">Grab crayons: color the border, fill the box, make it silly.</div>
+        </div>
+      </td>
+      <td>
+        <div class="note">
+          <div class="note-hi">FEEL BETTER</div>
+          <div class="note-body">Dear <span class="blank"></span>,</div>
+          <p class="note-body" style="margin-top:4pt">Being sick is not my favorite and I bet it is not yours either. Rest up. The couch has been told to behave itself.</p>
+          <div class="fill-label">A PICTURE OF US BEING FRIENDS — GOGGLES OPTIONAL</div>
+          <div class="fill-box tall"></div>
+          <div class="note-body" style="margin-top:7pt">Love, <span class="blank-narrow"></span></div>
+          <div class="heart-row">SOUP LETTERS ARE HERE TO CHEER YOU</div>
+          <div class="fill-box" style="height:24pt"></div>
+          <div class="hint">Grab crayons: color the border, fill the box, make it silly.</div>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+  <p class="disclaimer">Free Sick-Day Kit — education and organizing only. Not medical advice.</p>
+</body>
+</html>
